@@ -1,0 +1,41 @@
+body {
+background-color: #7092be;
+}
+
+
+.top_borderbox {
+    /* outline and color */
+    border: 2px white solid;
+    display: flex;
+    justify-content: center;
+    width: 1679px;
+    height: 250px;
+}
+.title_border {
+    border: 2px white solid;
+    display: flex;
+    justify-content: center;
+    width: 1679px;
+    height: 150px;
+    margin-top: 45px;
+}
+.text{
+    border: 2px whitesmoke solid;
+    display: flex;
+    width: 533px;
+    height: 106px;
+    justify-content: center;
+}
+.middle_box{
+    border: 2px whitesmoke solid;
+    width: 1674px;
+    height: 1068px;
+}
+.left_row {
+    border: 2px blue solid;
+    width: 595px;
+    height: 1055px;
+    display: flex;
+   flex-direction: row;
+   justify-content: left;
+}
