@@ -1,41 +1,65 @@
-body {
-background-color: #7092be;
+body{
+    background-color: black;
 }
 
-
-.top_borderbox {
-    /* outline and color */
-    border: 2px white solid;
-    display: flex;
-    justify-content: center;
-    width: 1679px;
-    height: 250px;
+.grid-container{
+    /* border: 2px rgb(255, 255, 255) solid; */
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 2fr 1fr;
+    height: 100vh;
+    grid-gap: 10px;
+    
 }
-.title_border {
-    border: 2px white solid;
+.box{
+    background-image: url(./images/background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    border-radius: 10px;
+}
+
+.middle-section{
+    border-radius: 20px;
+    display: grid;
+    grid-template-rows: 1fr 2fr 1fr;
+    grid-gap: 6px;
+}
+
+.main-box{
+    background-image: url(./images/image-asset.jpeg); 
+    background-size: cover;
+    background-attachment: fixed;
+    /* border: 2px blue solid; */
     display: flex;
     justify-content: center;
-    width: 1679px;
-    height: 150px;
-    margin-top: 45px;
+    border-radius: 10px;
+    font-family: monospace;
+    font-size: x-large;
+}
+.title_border{
+    /* border: 2px red solid; */
+    padding: 20px;
+
 }
 .text{
-    border: 2px whitesmoke solid;
-    display: flex;
-    width: 533px;
-    height: 106px;
-    justify-content: center;
+    color: white;
 }
-.middle_box{
-    border: 2px whitesmoke solid;
-    width: 1674px;
-    height: 1068px;
+
+.main_key{
+    /* border: 2px white solid; */
+    padding-top: 50px;
+
 }
-.left_row {
-    border: 2px blue solid;
-    width: 595px;
-    height: 1055px;
-    display: flex;
-   flex-direction: row;
-   justify-content: left;
+
+h2{
+    color: white
 }
+
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+.pacifico-regular {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
